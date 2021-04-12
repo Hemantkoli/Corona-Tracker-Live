@@ -8,7 +8,7 @@ const recovered=document.querySelector('.recovered');
 const chart=document.querySelector('.chart');
 
 let dataChart=[];
-const API_URL = "http://api.covid19api.com/summary";
+const API_URL = "https://api.covid19api.com/summary";
 
 async function covid(country)
 {
